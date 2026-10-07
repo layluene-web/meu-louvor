@@ -1,0 +1,450 @@
+.card-louvor {
+   background: rgba(255, 255, 255, 0.25);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-louvor h3 {
+    margin-top: 0;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.acoes {
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.acoes button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/imagem-de-fundo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-louvor {
+
+    background: rgba(0, 0, 0, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 0 16px 0;
+    backdrop-filter: blur(6px);
+}
+
+.card-louvor h3,
+.card-louvor p {
+    margin: 0 0 8px 0;
+}
+
+
+.acoes button,
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #6c5ce7;
+    color: white;
+    transition: background 0.2s;
+}
+
+.acoes button:hover,
+button:hover {
+    background: #5846d6;
+}
+input {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.9);
+}
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-top: 28px;
+}
+.buttonexcluirLouvor{
+    background: #e74c3c;
+}
+
+.buttonexcluirLouvor:hover {
+    background: #c0392b;
+}
+.tela-login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    width: 320px;
+    padding: 35px;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 20px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.login-card h1 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.login-card p {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.login-card input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 12px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0 30px;
+}
+
+.menu button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu button:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.tela-pesquisa {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa-card {
+    width: 320px;
+    padding: 35px;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 20px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.pesquisa-card h1 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.pesquisa-card p {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.pesquisa-card input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 12px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.pesquisa-card button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    z-index: 1000;
+
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.menu-lateral {
+    position: fixed;
+
+    top: 0;
+    left: -280px;
+
+    width: 250px;
+    height: 100vh;
+
+    padding: 80px 15px 20px;
+
+    background: rgba(0, 0, 0, 0.85);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    z-index: 999;
+
+    transition: left 0.3s ease;
+    
+}
+
+.menu-lateral button {
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+
+    text-align: left;
+    cursor: pointer;
+}
+
+.menu-lateral button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    
+}
+
+.menu-titulo {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.lembrar-login {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.lembrar-login input {
+    width: auto;
+    margin: 0;
+}
+#areaMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100vh;
+    z-index: 1001;
+}
+.menu-lateral button {
+    transition: all 0.25s ease;
+}
+
+.menu-lateral button:hover {
+    transform: translateX(5px) translateY(-2px);
+
+    background: rgba(255, 255, 255, 0.22);
+
+    box-shadow:
+        0 0 8px rgba(255, 255, 255, 0.35),
+        0 0 18px rgba(255, 255, 255, 0.18);
+}
+.tela-conteudo {
+    animation: aparecerTela 0.35s ease;
+}
+
+@keyframes aparecerTela {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card-louvor {
+    animation: entradaDancante 0.8s ease-out;
+}
+
+@keyframes entradaDancante {
+
+    0% {
+        opacity: 0;
+        transform: translateY(50px) rotate(-2deg) scale(0.96);
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    }
+
+    30% {
+        opacity: 0.7;
+        transform: translateY(15px) rotate(2deg) scale(1.01);
+       box-shadow:
+    0 0 12px rgba(45, 210, 200, 0.35),
+    0 0 25px rgba(30, 170, 180, 0.18);
+    }
+
+    55% {
+        transform: translateY(-5px) rotate(-1deg) scale(1.01);
+        box-shadow:
+    0 0 18px rgba(45, 210, 200, 0.45),
+    0 0 35px rgba(30, 170, 180, 0.25);
+    }
+
+    75% {
+        transform: translateY(2px) rotate(0.8deg) scale(1);
+    }
+
+    84% {
+        transform: translateY(-1px) rotate(-0.5deg) scale(1);
+    }
+
+    92% {
+        transform: translateY(1px) rotate(0.3deg) scale(1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0) scale(1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+.card-louvor:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.card-louvor:nth-child(2) {
+    animation-delay: 0.12s;
+}
+
+.card-louvor:nth-child(3) {
+    animation-delay: 0.24s;
+}
+
+.card-louvor:nth-child(4) {
+    animation-delay: 0.36s;
+}
+
+.card-louvor:nth-child(5) {
+    animation-delay: 0.48s;
+}
+
+.card-louvor:nth-child(6) {
+    animation-delay: 0.60s;
+}
+.card-louvor {
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+.card-louvor:hover {
+    transform: translateY(-5px) scale(1.01);
+
+    background: rgba(0, 0, 0, 0.55);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.35),
+        0 0 15px rgba(45, 210, 200, 0.18);
+}
+.card-louvor .acoes button {
+    transition: all 0.2s ease;
+}
+
+.card-louvor .acoes button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(45, 210, 200, 0.35);
+}
+.card-louvor.status-ja-peguei {
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.2),
+        0 0 12px rgba(45, 210, 180, 0.25);
+}
+.card-louvor.status-ainda-vou-pegar {
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.2),
+        0 0 12px rgba(255, 200, 80, 0.25);
+}
+.card-louvor.favoritado {
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.2),
+        0 0 14px rgba(255, 220, 90, 0.35);
+}
+.card-louvor .acoes button:first-child {
+    transition: all 0.25s ease;
+}
+
+.card-louvor .acoes button:first-child:hover {
+    transform: translateY(-2px) scale(1.03);
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Central Do Louvor</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+    <!-- TELA DE LOGIN -->
+    <section id="telaLogin" class="tela-login">
+
+        <div class="login-card">
+
+            <h1>🎸 Meu Louvor</h1>
+
+            <p>Minha Central de Louvor</p>
+
+            <input
+                type="text"
+                id="usuario"
+                placeholder="Usuário"
+            >
+
+            <input
+                type="password"
+                id="senha"
+                placeholder="Senha"
+            >
+            <label class="lembrar-login">
+    <input type="checkbox" id="lembrarLogin">
+    Lembrar de mim
+</label>
+
+            <button id="btnEntrar">Entrar</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- CENTRAL DO LOUVOR -->
+    <main id="centralLouvor" style="display: none;">
+
+        <header>
+            <nav class="menu">
+
+   <button id="btnMenu" class="btn-menu">
+    ☰
+</button>
+<div id="areaMenu"></div>
+<nav id="menuLateral" class="menu-lateral">
+
+    <div class="menu-titulo">
+        <h2>🎸 Meu Louvor</h2>
+    </div>
+
+    <button id="menuInicio">🏠 Início</button>
+
+    <button id="menuLouvores">🎵 Meus Louvores</button>
+
+    <button id="menuPeguei">✅ Já Peguei</button>
+
+    <button id="menuAindaVouPegar">📌 Ainda Vou Pegar</button>
+
+    <button id="menuFavoritos">⭐ Favoritos</button>
+
+    <button id="menuPesquisar">🔎 Pesquisar</button>
+     <button id="menuSair">Sair</button>
+</nav>
+</nav>
+            <h1>🎸 Meu Louvor</h1>
+            <p>Minha Central de Louvores</p>
+        </header>
+
+
+        <section class="pesquisa">
+
+            <h2>Pesquisar Louvor</h2>
+
+            <input
+                type="text"
+                id="campoPesquisa"
+                placeholder="Digite o nome da música ou Cantor"
+            >
+
+            <button onclick="pesquisarLouvor()">
+                Pesquisar
+            </button>
+
+        </section>
+
+
+        <section class="cadastro">
+
+            <h2>Adicionar Louvor</h2>
+
+            <button id="btnAdicionar">
+                ➕ Adicionar Louvor
+            </button>
+
+            <div
+                id="formularioLouvor"
+                class="formulario"
+                style="display: none;"
+            >
+
+                <input
+                    type="text"
+                    id="nomeLouvor"
+                    placeholder="Nome da música"
+                >
+
+                <input
+                    type="text"
+                    id="artistaLouvor"
+                    placeholder="Artista"
+                >
+
+                <input
+                    type="text"
+                    id="cantorLouvor"
+                    placeholder="Quem vai cantar"
+                >
+
+                <input
+                    type="text"
+                    id="tomLouvor"
+                    placeholder="Tom"
+                >
+
+                <select id="statusLouvor">
+
+                    <option value="ja-peguei">
+                        Já peguei
+                    </option>
+
+                    <option value="ainda-vou-pegar">
+                        Ainda vou pegar
+                    </option>
+
+                </select>
+
+                <button id="salvarLouvor">
+                    💾 Salvar Louvor
+                </button>
+
+                <button id="cancelarEdicao" type="button">
+                    ❌ Cancelar
+                </button>
+
+            </div>
+
+        </section>
+
+<section id="telaLouvores" class="tela-conteudo"></section>
+        <section class="Louvores">
+
+            <h2>Meus Louvores</h2>
+
+           
+
+            <div id="listaLouvores">
+                <!-- As músicas aparecerão aqui -->
+            </div>
+
+        </section>
+</section>
+
+        
+    </main>
+<section id="telaPesquisa" class="tela-pesquisa" style="display: none;">
+
+    <div class="pesquisa-card">
+
+        <h1>🔎 Pesquisar Louvor</h1>
+
+        <p>Encontre seus louvores</p>
+
+        <input
+            type="text"
+            id="campoPesquisaMenu"
+            placeholder="Nome da música ou cantor"
+        >
+
+        <button id="btnPesquisarMenu">
+            Pesquisar
+        </button>
+
+        <button id="btnVoltarPesquisa">
+            ← Voltar
+        </button>
+
+        <div id="resultadoPesquisa"></div>
+
+    </div>
+
+</section>
+
+
+    <script src="Jss/script.js"></script>
+
+</body>
+</html>
